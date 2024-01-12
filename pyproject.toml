@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "env-handling"
+version = "0.1.0"
+description = "Example for handling secrets"
+authors = ["DavidJohnson86 <szuroveczdavid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.5.2"
+pydantic-settings = "^2.1.0"
+load-dotenv = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
